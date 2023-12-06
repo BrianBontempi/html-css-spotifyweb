@@ -11,12 +11,26 @@ body{
     color: white;
 }
 
+h6{
+    font-size: 12px;
+}
+
 /* ***** utility ****** */
 
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0 30px;
 }
+
+.text-w{
+    color: white;
+}
+
+.text-g{
+    color: rgb(154, 151, 151);
+}
+
 
 /* ! layout struttura principale */
 
@@ -68,5 +82,55 @@ header{
     border-radius: 30px;
 
     padding: 15px 45px;
-    margin-right: 20px;
+    margin-right: 25px;
+}
+
+.upgrade:active{
+    scale: 1.1;
+}
+
+/* ***** navbar ***** */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 15px;
+
+    list-style-type: none;
+}
+
+.navbar a{
+    color: rgb(146, 145, 145);
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.navbar li{
+    margin-bottom: 10px;
+}
+
+/* ****** recently played section ***** */
+
+.song img{
+    max-width: 100%;
+    display: inline-block;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin: 0 -10px; 
+}
+
+.gallery .song{
+    flex-basis: calc(100% / 2);
+    
+    padding: 10px;
+    
+    text-align: center;
 }
