@@ -68,6 +68,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 
     display: flex;
     justify-content: flex-end;
@@ -83,6 +84,8 @@ header{
 
     padding: 15px 45px;
     margin-right: 25px;
+
+    cursor: pointer;
 }
 
 .upgrade:active{
@@ -117,7 +120,7 @@ header{
 
 .song img{
     max-width: 100%;
-    display: inline-block;
+    display: block;
 }
 
 .gallery{
@@ -128,13 +131,41 @@ header{
 }
 
 .gallery .song{
-    flex-basis: calc(100% / 2);
+    flex-basis: 50%;
     
     padding: 10px;
     
     text-align: center;
 }
 
+.circle{
+    border-radius: 50%;
+}
+
 .circle img{
     border-radius: 50%;
+}
+
+.song figure{
+    position: relative;
+}
+
+.player{
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    cursor: pointer;
+
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.song figure:hover .player{
+    display:flex
 }
