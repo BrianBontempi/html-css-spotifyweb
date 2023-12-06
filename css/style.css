@@ -113,7 +113,7 @@ header{
     margin-bottom: 10px;
 }
 
-/* ****** recently played section ***** */
+/* ****** gallery section ***** */
 
 .song img{
     max-width: 100%;
@@ -133,4 +133,8 @@ header{
     padding: 10px;
     
     text-align: center;
+}
+
+.circle img{
+    border-radius: 50%;
 }
