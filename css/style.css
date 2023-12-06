@@ -184,7 +184,7 @@ header{
     align-items: center;
     flex-direction: column;
 
-    padding: 5px;
+    padding: 10px;
     gap: 10px;
 }
 
@@ -194,11 +194,12 @@ header{
 }
 
 .sidebar img{
-    width: 60%;
+    width: 25px;
     display: block;
 }
 
 .account{
-   width: 40px;
-   height: 25px; 
+    background-color: gray;
+    border-radius: 50%;
 }
+

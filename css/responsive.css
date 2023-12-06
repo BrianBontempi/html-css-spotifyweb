@@ -1,3 +1,16 @@
+/* ! from 639px */
+@media screen and (min-width: 639px) {
+    .sidebar{
+        flex-basis: 250px;
+        align-items: flex-start;
+        padding-left: 10px;
+    }
+    .dpn-large{
+        display: none;
+    }
+
+
+
 /* ! from 768px */
 
 @media screen and (min-width: 768px) {
