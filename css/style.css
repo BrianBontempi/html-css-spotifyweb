@@ -5,3 +5,54 @@
     margin: 0;
     padding: 0;
 }
+/* ? ****** generics ****** */
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+/* ***** utility ****** */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ! layout struttura principale */
+
+.top-block{
+    height: calc(100vh - 100px);
+    overflow: auto;
+
+    display: flex;
+}
+
+footer{
+    height: 100px;
+    background-color: rgb(40, 40, 40);
+}
+
+main{
+    flex-grow: 1;
+    overflow: auto;
+
+    background-color: #141922;
+}
+
+.sidebar{
+    flex-basis: 50px;
+    flex-shrink: 0;
+
+    background-color: black;
+}
+
+header{
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
