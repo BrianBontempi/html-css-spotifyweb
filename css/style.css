@@ -226,8 +226,30 @@ li{
     border-radius: 50%;
 }
 
+#logo-large{
+    width: 150px;
+}
+
 /* ***** footer ***** */
 
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 
+    padding: 20px;
+}
+
+.played-song{
+    display: flex;
+    align-items: center;
+}
+
+.played-song img{
+    max-width: 35px;
+    display: inline;
+    margin-right: 10px;
+}
 
 
