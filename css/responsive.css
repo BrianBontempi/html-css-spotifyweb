@@ -8,6 +8,12 @@
     .dpn-large{
         display: none;
     }
+    .dpb-md{
+        display: inline-block;
+    }
+    span{
+        display: inline;
+    }
 
 
 
